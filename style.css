@@ -1,5 +1,62 @@
+html {
+  background: url(https://c.pxhere.com/images/7e/a6/47b069a28d3a715f454a87cb263b-1420050.jpg!d)
+    no-repeat center fixed;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 body {
+  background-color: rgba(255, 255, 255, 0.83);
+  border-radius: 15px;
   width: 600px;
   margin: 25px auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 25px 150px 50px;
+}
+
+h1,
+h2 {
+  font-family: Gill "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  letter-spacing: spacing 25px;
+}
+
+h1 {
+  color: rgb(143, 41, 68);
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+p {
+  color: black;
+}
+
+.blue {
+  color: rgb(42, 85, 165);
+}
+
+.green {
+  color: rgb(16, 111, 16);
+}
+
+.brown {
+  color: #634517;
+}
+
+a {
+  color: rgb(0, 0, 255);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+img {
+  border-radius: 15px;
 }
