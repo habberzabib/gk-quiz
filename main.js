@@ -1,10 +1,10 @@
-document.getElementById("markQuizBtn").addEventListener("click", evaluateQuiz);
+document.getElementById("markQuizBtn").addEventListener("click", markQuiz);
 
-function evaluateQuiz() {
+function markQuiz() {
   let score = 0;
   let totalQ = 4;
 
-  // checking answers)
+  // variables for answers
   let answer1 = document.getElementById("answer1").value.toLowerCase();
   let answer2 = document.getElementById("answer2").value.toLowerCase();
   let answer3 = document.getElementById("answer3").value.toLowerCase();
@@ -27,7 +27,7 @@ function evaluateQuiz() {
   }
 
   // question 3
-  if (answer3 === "sloth" || answer3 === "manatees") {
+  if (answer3 === "sloths" || answer3 === "manatees") {
     score++;
     document.getElementById("answer3").value = "Correct!";
   } else {
