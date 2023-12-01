@@ -42,6 +42,7 @@ function markQuiz() {
     document.getElementById("answer4").value = "Incorrect.";
   }
 
+  //calculate score
   let percentage = (score / totalQ) * 100;
   let resultEl = document.getElementById("resultDisplay");
   resultEl.innerHTML = `You got ${score}/${totalQ} (${percentage}%)`;
@@ -54,7 +55,5 @@ function markQuiz() {
   } else {
     feedback = "Skill issue.";
   }
-
-  // Display feedback under the button
   resultEl.innerHTML += `<p>${feedback}</p>`;
 }
