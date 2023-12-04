@@ -27,7 +27,7 @@ function markQuiz() {
   }
 
   // question 3
-  if (answer3 === "sloths" || "manatees") {
+  if (answer3 === "sloths" || answer3 === "manatees") {
     score++;
     document.getElementById("answer3").value = "Correct!";
   } else {
