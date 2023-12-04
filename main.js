@@ -53,7 +53,7 @@ function markQuiz() {
   } else if (score >= 2) {
     feedback = "Not bad. Unless you cheated. But you wouldn't do that...right?";
   } else {
-    feedback = "Skill issue.";
+    feedback = "Yikes.";
   }
   resultEl.innerHTML += `<p>${feedback}</p>`;
 }
